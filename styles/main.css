@@ -1,5 +1,4 @@
-/*media queries*/
-
+/*Media Queries*/
 
 /*global homepage*/
 * { 
@@ -31,11 +30,11 @@ body .header-wrap {
 }
 
 nav.ui.compact.menu  {
-    float: right;
-    margin: 30px 30px 0 0;
-    box-shadow: none;
-    border: none;
-    background-color: #DE1B1B;
+  float: right;
+  margin: 30px 30px 0 0;
+  box-shadow: none;
+  border: none;
+  background-color: #DE1B1B;
 }
 
 nav a {
@@ -80,8 +79,9 @@ footer .ui.container {
 }
 
 /* carousel */
-
 #carousel-wrap {
+  width: auto;
+  max-height: 400px;
   margin: 40px 0 40px 0;
 }
 
@@ -112,7 +112,7 @@ footer .ui.container {
 }
 
 .slide-img-box img {
-  height: 350px;
+  max-height: 350px;
   margin: auto;
   display: inline-block;
 }
@@ -207,8 +207,8 @@ button.ui.small.send-btn {
 
 .redphoto {
 /*  opacity: 0.7;*/
-  max-width: 100%;
-  height: 350px;
+  max-width: 50%;
+  height: auto;
   float: right;
   border: 2px solid #2B2B2B;
   padding: 7px;
