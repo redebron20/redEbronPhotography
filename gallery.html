@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- site properties -->
+	<title>Gallery - Red Ebron</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/gallery.css">
+</head>
+
+<body id="wrapper">
+<!-- main menu -->	
+	<div class="ui container header-wrap">
+		<!-- header -->
+		<header class="main-header">
+			<div id="head-title">
+				<h1 class="ui header hFirst">Red Ebron</h1>
+				<h2 class="ui header hSecond">photography</h2>
+			</div>
+			<nav class="ui borderless inverted compact menu">
+				<a class="item" href="index.html">Home</a>
+				<a class="active item" href="gallery.html">Gallery</a>
+				<a class="item" href="about.html">About</a>
+				<a class="item ctn-modal" href="#">Contact</a>
+			<!-- social media -->
+				<a class="fitted item" href="https://www.facebook.com/redebron"><i class="large facebook f icon"></i></a>
+				<a class="fitted item" href="https://twitter.com/redebron"><i class="large twitter icon"></i></a>
+				<a class="fitted item" href="https://www.instagram.com/yourladyred/"><i class="large instagram icon"></i></a>
+				<!-- <a class="fitted item" href="https://www.linkedin.com/in/redebron/"><i class="large linkedin icon"></i></a> -->	
+			</nav>	
+		</header>
+	</div>
+
+<!-- contact form -->
+	<section>
+		<div class="ui modal contact-wrapper">
+			<i class="close icon"></i>
+			<form class="ui form contact-form" action="https://formspree.io/redebron20@gmail.com" method="POST">
+			<h2 class="connect">Let's connect!</h2>
+				<div class="field">
+					<input type="text" name="name" placeholder="Your Name">
+				</div>
+				<div class="field">
+					<input type="email" name="_replyto" placeholder="Your Email">
+				</div>
+				<div class="ui fluid icon input">
+					<textarea rows="2" type="text" placeholder="Message"></textarea>
+				</div>
+				<button class="ui small red button clear" type="submit">Send</button>      
+			</form>			
+		</div>
+	</section>
+
+<!-- Masonry gallery -->
+	<section class="masonry-wrapper">
+		<div id="gallery-container">
+			<div class="grid masonry-gal" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+			    <div class="grid-sizer photo-container"></div>		  
+			    <div class="grid-item photo-container">
+			      <img class="image" src="assets/flower2.jpeg">
+			    </div>		  		  
+			    <div class="grid-item grid-item--width2 grid-item--height2 photo-container">
+			      <img class="image" src="assets/flower1.jpeg">
+			    </div>		  		  
+			    <div class="grid-item photo-container">
+			      <img class="image" src="assets/flower2.jpeg">
+			    </div>		  		  
+			    <div class="grid-item photo-container">
+			      <img class="image" src="assets/flower1.jpeg">
+			    </div>		  		   
+			    <div class="grid-item photo-container">
+			      <img class="image" src="assets/flower2.jpeg">
+			   	</div>
+			   	<div class="grid-item photo-container">
+			      <img class="image" src="assets/flower1.jpeg">
+			    </div>		  		   
+			    <div class="grid-item photo-container">
+			      <img class="image" src="assets/flower2.jpeg">
+			   	</div>	
+			   	<div class="grid-item photo-container">
+			      <img class="image" src="assets/flower1.jpeg">
+			    </div>		  		   
+			    <div class="grid-item photo-container">
+			      <img class="image" src="assets/flower2.jpeg">
+			   	</div>	
+			   	<div class="grid-item photo-container">
+			      <img class="image" src="assets/flower1.jpeg">
+			    </div>		  		   
+			    <div class="grid-item photo-container">
+			      <img class="image" src="assets/flower2.jpeg">
+			   	</div>		  
+			</div>
+		</div>
+	</section>
+<!-- footer -->
+	<footer>		
+		<div class="ui container">
+			<div class="footer-wrap">
+				<p class="copyright">Copyright © 2017 Red Ebron.</p>
+			</div>
+		</div>		
+	</footer>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="javascript/gallery.js"></script>
+    <script src="javascript/app.js"></script>
+
+</body>
+</html>

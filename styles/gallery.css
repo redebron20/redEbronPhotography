@@ -1,0 +1,85 @@
+/*Media Queries*/
+@media only screen and (max-width : 1199px),
+only screen and (max-device-width : 1199px){
+  #container {
+    width: 1000px;
+  }
+}
+ 
+@media only screen and (max-width : 999px),
+only screen and (max-device-width : 999px){
+  #container {
+    width: 800px;
+  }
+}
+ 
+@media only screen and (max-width : 799px),
+only screen and (max-device-width : 799px){
+  #container {
+    width: 600px;
+  }
+}
+ 
+@media only screen and (max-width : 599px),
+only screen and (max-device-width : 599px){
+  #container {
+    width: 400px;
+  }
+}
+ 
+@media only screen and (max-width : 399px),
+only screen and (max-device-width : 399px){
+  #container {
+    width: 200px;
+  }
+}
+
+
+/* 2nd page CSS */
+.masonry-wrapper {
+  padding: 40px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #F6F6F6;
+ /* max-width: 100%;*/
+  /*padding: 10px;*/
+
+}
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+/* ---- grid ---- */
+.grid {
+
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+

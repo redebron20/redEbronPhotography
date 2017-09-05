@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- site properties -->
+	<title>Red Ebron</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<!-- 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick-theme.css"/> -->
+	<link rel="stylesheet" href="styles/main.css">
+	<!-- <i class="camera retro icon"></i> -->
+</head>
+
+<body id="wrapper">
+<!-- main menu -->	
+	<div class="ui container header-wrap">
+		<!-- header -->
+		<header class="main-header">
+			<div id="head-title">
+				<h1 class="ui header hFirst">Red Ebron</h1>
+				<h2 class="ui header hSecond">photography</h2>
+			</div>
+			<nav class="ui borderless inverted compact menu">
+				<a class="active item" href="index.html">Home</a>
+				<a class="item" href="gallery.html">Gallery</a>
+				<a class="item" href="about.html">About</a>
+				<a class="item ctn-modal" href="#">Contact</a>
+			<!-- social media -->
+				<a class="fitted item" href="https://www.facebook.com/redebron"><i class="large facebook f icon"></i></a>
+				<a class="fitted item" href="https://twitter.com/redebron"><i class="large twitter icon"></i></a>
+				<a class="fitted item" href="https://www.instagram.com/yourladyred/"><i class="large instagram icon"></i></a>
+				<!-- <a class="fitted item" href="https://www.linkedin.com/in/redebron/"><i class="large linkedin icon"></i></a> -->	
+			</nav>	
+		</header>
+	</div>
+		
+
+<!-- slideshow -->
+	<section id="carousel-wrap">
+		<div class="slide-container">
+			<div class="slider-box js-slideshow">
+
+				<div class="slide-img-box">
+					<img class="ui rounded popup-img" src="assets/event7.jpg">
+					<a class="img-text" href="events.html">Events</a>		
+				</div>
+
+				<div class="slide-img-box">
+					<img class="ui rounded popup-img" src="assets/photo20.jpg">
+					<a class="img-text" href="portraits.html">Portraits</a>
+				</div>
+				
+				<div class="slide-img-box">
+					<img class="ui rounded popup-img" src="assets/land2.jpg">
+					<a class="img-text" href="landscape.html">Landscapes</a>
+				</div>
+				
+				<div class="slide-img-box">
+					<img class="ui rounded popup-img" src="assets/macro1.jpg">
+					<a class="img-text" href="macro.html">Macro</a>
+				</div>
+			</div>
+		</div>
+<!-- image modal -->
+		<div class="ui modal fullscreen full-img">
+			<i class="close icon"></i>
+			<div class="content image">
+				<div class="ui massive image">
+					<img class="ui massive image" src="">
+				</div>
+			</div>
+		</div>
+
+<!-- prev/next arrow -->
+		<div class="btn-arrow">
+			<button type="button" class="ui small red button slick-prev"><i class="chevron left icon"></i></button>
+			<button type="button" class="ui small red button slick-next"><i class="chevron right icon"></i></button>
+		</div>
+	</section>		
+
+<!-- contact form modal-->
+	<section>
+		<div class="ui modal contact-wrapper">
+			<i class="close icon"></i>
+			<form class="ui form contact-form" action="https://formspree.io/redebron20@gmail.com" method="POST">
+			<h2 class="connect">Let's connect!</h2>
+				<div class="field">
+					<input type="text" name="name" placeholder="Your Name">
+				</div>
+				<div class="field">
+					<input type="email" name="_replyto" placeholder="Your Email">
+				</div>
+				<div class="ui fluid icon input">
+					<textarea rows="2" type="text" placeholder="Message"></textarea>
+				</div>
+				<button class="ui small red button send-btn clear" type="submit">Send</button>      
+			</form>			
+		</div>
+	</section>
+
+<!-- footer -->
+	<footer>		
+		<div class="ui container">
+			<div class="footer-wrap">
+				<p class="copyright">Copyright © 2017 Red Ebron.</p>
+			</div>
+		</div>		
+	</footer>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
+    <script src="javascript/app.js"></script>
+ 
+</body>
+</html>
+
+
+
